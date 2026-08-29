@@ -11,7 +11,7 @@ const products = [
     id: "huevos-seleccion",
     name: "Maple de huevos Selección",
     description: "30 huevos.",
-    price: 5000,
+    price: 4999,
     icon: "🥚"
   },
   {
