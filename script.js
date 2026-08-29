@@ -11,28 +11,28 @@ const products = [
     id: "huevos-seleccion",
     name: "Maple de huevos Selección",
     description: "30 huevos.",
-    price: 6000,
+    price: 5000,
     icon: "🥚"
   },
   {
     id: "huevos-medianos",
     name: "Maple de huevos Medianos",
     description: "30 huevos.",
-    price: 5500,
+    price: 4300,
     icon: "🥚"
   },
   {
     id: "caja-seleccion",
-    name: "Caja de huevos Selección",
+    name: "Media caja de huevos Selección",
     description: "6 maples.",
     price: 27000,
     icon: "📦"
   },
   {
     id: "caja-medianos",
-    name: "Caja de huevos Medianos",
+    name: "Media Caja de huevos Medianos",
     description: "6 maples.",
-    price: 53500,
+    price: 25500,
     icon: "📦"
   },
   {
