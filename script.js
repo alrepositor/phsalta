@@ -4,7 +4,7 @@
 // Reemplazá este número por tu WhatsApp.
 // Formato internacional, sin +, espacios ni guiones.
 // Ejemplo Argentina: 5493871234567
-const WHATSAPP_NUMBER = "+543874036794";
+const WHATSAPP_NUMBER = "543874036794";
 
 const products = [
   {
