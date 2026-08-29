@@ -25,28 +25,28 @@ const products = [
     id: "caja-seleccion",
     name: "Caja de huevos Selección",
     description: "6 maples.",
-    price: 32000,
+    price: 27000,
     icon: "📦"
   },
   {
     id: "caja-medianos",
     name: "Caja de huevos Medianos",
     description: "6 maples.",
-    price: 29000,
+    price: 53500,
     icon: "📦"
   },
   {
     id: "leche",
     name: "Leche",
     description: "Producto fresco. Consultá presentación y disponibilidad.",
-    price: 0,
+    price: 1800,
     icon: "🥛"
   },
   {
     id: "miel",
     name: "Miel",
     description: "Miel seleccionada. Consultá presentación y disponibilidad.",
-    price: 0,
+    price: 7500,
     icon: "🍯"
   }
 ];
