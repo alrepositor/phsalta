@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Huevos, leche, miel y productos frescos. Pedidos y entregas a domicilio.">
+  <title>La Canasta | Productos frescos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">🥚</span>
+        <span>La Canasta</span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <div class="nav-links">
+        <a href="#productos">Productos</a>
+        <a href="#promos">Promociones</a>
+        <a href="#envios">Envíos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">FRESCO • SIMPLE • DIRECTO</span>
+          <h1>Productos para tu casa, <em>sin vueltas.</em></h1>
+          <p>Huevos, leche, miel y otros productos seleccionados. Armá tu pedido y recibilo en tu domicilio.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#productos">Ver productos</a>
+            <a class="btn btn-secondary" href="#contacto">Hacer un pedido</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Atención personalizada</span>
+            <span>✓ Pedidos por WhatsApp</span>
+            <span>✓ Entregas a domicilio</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="basket">🧺</div>
+          <div>
+            <span class="small-label">TU PEDIDO</span>
+            <h3>Fresco y listo</h3>
+            <p>Elegí tus productos, indicá las cantidades y enviá el pedido.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">CATÁLOGO</span>
+            <h2>Productos</h2>
+          </div>
+          <p>Los precios se pueden modificar fácilmente desde <strong>script.js</strong>.</p>
+        </div>
+        <div id="product-grid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="promos" class="promo-section">
+      <div class="container promo">
+        <div>
+          <span class="eyebrow">PROMOCIONES</span>
+          <h2>Armá tu compra y ahorrá</h2>
+          <p>Podés crear promociones, combos y descuentos directamente desde el catálogo.</p>
+        </div>
+        <a class="btn btn-light" href="#productos">Ver ofertas</a>
+      </div>
+    </section>
+
+    <section id="envios" class="section section-soft">
+      <div class="container features">
+        <article class="feature">
+          <span class="feature-icon">🚚</span>
+          <h3>Entregas</h3>
+          <p>Coordinamos el envío según tu zona y disponibilidad.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon">📦</span>
+          <h3>Pedidos</h3>
+          <p>Comprá por unidad, maple, caja o por la cantidad que necesites.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-icon">💬</span>
+          <h3>WhatsApp</h3>
+          <p>Recibimos tu pedido directamente por WhatsApp, de forma rápida.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow">CONTACTO</span>
+          <h2>¿Querés hacer un pedido?</h2>
+          <p>Agregá productos al carrito y enviá tu pedido por WhatsApp. También podés escribirnos directamente.</p>
+          <a id="direct-whatsapp" class="btn btn-primary" href="#" target="_blank" rel="noopener">💬 Escribir por WhatsApp</a>
+        </div>
+
+        <aside class="order-card">
+          <div class="order-head">
+            <div>
+              <span class="small-label">TU CARRITO</span>
+              <h3>Pedido</h3>
+            </div>
+            <button id="clear-cart" class="text-button">Vaciar</button>
+          </div>
+          <div id="cart-items" class="cart-items">
+            <p class="empty-cart">Todavía no agregaste productos.</p>
+          </div>
+          <div class="cart-total">
+            <span>Total estimado</span>
+            <strong id="cart-total">$0</strong>
+          </div>
+          <button id="send-order" class="btn btn-primary btn-full">Enviar pedido por WhatsApp</button>
+          <p class="cart-note">El total es orientativo. El precio final y el envío se confirman por WhatsApp.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>La Canasta</strong>
+        <span>Productos frescos para tu hogar.</span>
+      </div>
+      <span>© <span id="year"></span> La Canasta</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
