@@ -11,35 +11,35 @@ const products = [
     id: "huevos-seleccion",
     name: "Maple de huevos Selección",
     description: "30 huevos.",
-    price: 4999,
+    price: 5000,
     icon: "🥚"
   },
   {
     id: "huevos-medianos",
     name: "Maple de huevos Medianos",
     description: "30 huevos.",
-    price: 4300,
+    price: 4800,
     icon: "🥚"
   },
   {
     id: "caja-seleccion",
     name: "Media caja de huevos Selección",
     description: "6 maples.",
-    price: 27000,
+    price: 30000,
     icon: "📦"
   },
   {
     id: "caja-medianos",
     name: "Media Caja de huevos Medianos",
     description: "6 maples.",
-    price: 25500,
+    price: 27000,
     icon: "📦"
   },
   {
     id: "leche",
     name: "Leche",
     description: "Producto fresco. Consultá presentación y disponibilidad.",
-    price: 1800,
+    price: 1600,
     icon: "🥛"
   },
   {
